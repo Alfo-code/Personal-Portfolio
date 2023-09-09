@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Raleway:wght@400;600;700&display=swap');
+
+:root {
+    --bs-body-font-family: 'Raleway', sans-serif; 
+    --bs-font-monospace: 'Oxygen Mono', monospace;
+    --bs-code-color: var(--main-white);
+    --main-blue: #13C6FF;
+    --main-white: #F6F6F6;
+}
+
+.navbar-toggler > .close {
+    display: inline;
+    transition: all ease 0.5s;
+}
+
+.navbar-toggler.collapsed > .close, .navbar-toggler:not(.collapsed) > .navbar-toggler-icon {
+    display: none;
+}
+
+.nav-link {
+    color: var(--main-white);
+    font-size: 1.12rem;
+}
+
+.nav-link:hover {
+    color: var(--main-blue);
+}
+
+.header-title {
+    color: var(--main-blue);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+.btn-primary {
+    background-color: var(--main-blue);
+}
+
+.btn:hover {
+    background-color: var(--main-white);
+}
+
+.blue {
+    color: var(--main-blue);
+}
+
+u {
+    text-decoration-color: var(--main-blue);
+}
+
+.project-img:hover {
+    box-shadow: 0px 0px 20px 0px var(--main-blue);
+    cursor: pointer;
+}
+
+#contacts a {
+    color: var(--main-blue);
+}
+
+#contacts a:hover {
+    color: var(--main-white);
+}
+
+.icon:hover path {
+    fill: var(--main-white);
+    transition: all ease 0.3s;
+}
+
+svg:hover path {
+    stroke: var(--main-white);
+    transition: all ease 0.3s;
+}
+
+@media (max-width: 768px) {
+
+    h1 {
+       font-size: 3em;
+    }
+ 
+    h2 {
+       font-size: 2em;
+    }
+ }
+
+ @media (max-width: 375px) {
+
+    h1 {
+       font-size: 2.5em;
+    }
+ 
+    h2 {
+       font-size: 1.5em;
+    }
+
+    .btn-wrapper > a {
+        display: none;
+    }
+ }
