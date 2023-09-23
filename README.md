@@ -7,6 +7,7 @@ It's a one-page website with multiple sections: 'about', 'work', and 'contact'.
 ### Built with
 - Semantic HTML5 markup
 - Bootstrap 5
+- Responsive design
 
 
 ### Live URL
