@@ -10,4 +10,4 @@ It's a one-page website with multiple sections: 'about', 'work', and 'contact'.
 
 
 ### Live URL
-You can check the portfolio website via this [link](https://#)
+You can check the portfolio website via this [link](https://alfo-code.github.io/Personal-Portfolio/)
