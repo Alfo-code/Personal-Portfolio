@@ -7,7 +7,8 @@ It's a one-page website with multiple sections: 'about', 'work', and 'contact'.
 ### Built with
 - Semantic HTML5 markup
 - Bootstrap 5
+- Responsive design
 
 
 ### Live URL
-You can check the portfolio website via this [link](https://#)
+You can check the portfolio website via this [link](https://alfo-code.github.io/Personal-Portfolio/)
